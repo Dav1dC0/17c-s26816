@@ -1,10 +1,6 @@
+# File: main.py
+from square_generator import SquareGenerator
 import math
-
-class SquareGenerator:
-    def generate_squares(self, start, end):
-        if end < start:
-            return []
-        return [x**2 for x in range(start, end + 1)]
 
 square_gen = SquareGenerator()
 
