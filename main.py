@@ -1,5 +1,5 @@
 # File: main.py
-from square_generator import SquareGenerator
+from SquareGenerator_package.square_generator import SquareGenerator
 import math
 
 square_gen = SquareGenerator()
